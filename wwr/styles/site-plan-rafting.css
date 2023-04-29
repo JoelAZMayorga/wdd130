@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Mulish&display=swap');
+:root {
+  --primary-color: #194ba8;
+  --secondary-color: #419869;
+  --accent1-color:#09224F;
+  --accent2-color: #F5C96C;
+
+  --heading-font:'Mulish', serif;
+  --paragraph-font:'Montserrat', serif;
+
+  --nav-background-color: #F5D98E;
+  --nav-link-color: #000000;
+  --nav-hover-link-color: #194ba8;
+  --nav-hover-background-color: #CCA53A;
+}
+
+body {
+  font-family: var(--paragraph-font);
+  max-width: 960px;
+  padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+
+header {
+padding: 20px;
+color: var(--accent1-color);
+}
+
+p {
+  padding: 25px
+}
+
+nav {
+  background-color: var(--nav-background-color);
+  font-size: 1.2rem;
+  display: flex;
+}
+
+nav a{
+  display: block;
+  color: var(--nav-link-color);
+  text-decoration: none;
+  padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+  color: var(--nav-link-color);
+}
+
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}
