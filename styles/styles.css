@@ -10,6 +10,7 @@ main {
   max-width: 840px;
 }
 aside {
+  position: relative;
   margin: 1em;
   padding: 1em;
   background-color: #eee;
@@ -22,8 +23,9 @@ aside img {
 }
 
 aside h2 {
-position: relative;
-bottom: 20px;
+position: absolute;
+bottom: 115px;
+left: 615px;
 
 }
 
