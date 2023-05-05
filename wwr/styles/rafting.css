@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Mulish&display=swap');
+:root {
+  --primary-color: #194ba8;
+  --secondary-color: #419869;
+  --accent1-color:#09224F;
+  --accent2-color: #F5C96C;
+
+  --heading-font:'Mulish', serif;
+  --paragraph-font:'Montserrat', serif;
+
+  --nav-background-color: #F5D98E;
+  --nav-link-color: #000000;
+  --nav-hover-link-color: #194ba8;
+  --nav-hover-background-color: #CCA53A;
+}
+* {
+  margin: auto;
+  max-width: 960px;
+}
+
+header {
+padding: 20px;
+font-family: var(--heading-font);
+color: var(--accent1-color);
+}
+
+header h1 {
+  position: absolute;
+}
+
+p {
+font-family: var(--paragraph-font);
+color: #000000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+
+nav a{
+text-decoration: none;
+}
+
+.hero {
+position: relative;
+}
+article p {
+display: block;
+text-align: left;
+width: auto;
+color: white;
+padding: 10px;
+}
+section p {
+  padding: 10px;
+}
+.hero h1 {
+  background-color: rgb(0, 0, 0, .5);
+  position: absolute;
+  width: 100%;
+  top: 100px;
+  text-align: center;
+  color: white;
+}
+
+.hero article {
+  background-color: rgb(0, 0, 0, .5);
+  position: absolute;
+  height: 150px;
+  width: 600px;
+  top: 350px;
+  left: 150px;
+  padding: 25px;
+}
+
+.hero article img {
+  display: block;
+  width: 200px;
+  height: auto;
+  float: right;
+}
