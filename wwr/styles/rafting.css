@@ -64,6 +64,7 @@ section p {
   text-align: center;
   color: white;
   font-family: var(--paragraph-font);
+  padding: 10px 0 10px
 }
 
 .hero article {
