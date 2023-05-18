@@ -74,7 +74,7 @@ button:hover {
   align-items: center;
 }
 
-.column {
-  grid-template-columns: 3fr 1fr;
+.columns {
+  grid-template-columns: 1fr;
   margin: 0.5rem 0;
 }
