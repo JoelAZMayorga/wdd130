@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Mulish&display=swap');
+:root {
+  --primary-color: #194ba8;
+  --secondary-color: #419869;
+  --accent1-color:#09224F;
+  --accent2-color: #F5C96C;
+
+  --heading-font:'Mulish', serif;
+  --paragraph-font:'Montserrat', serif;
+
+  --nav-background-color: #F5D98E;
+  --nav-link-color: #000000;
+  --nav-hover-link-color: #194ba8;
+  --nav-hover-background-color: #CCA53A;
+}
+* {
+  margin: auto;
+  max-width: 960px;
+}
+
+header {
+margin: 1rem auto;
+display: grid;
+grid-template-columns: 50% 1fr 0fr 0fr;
+border-bottom: 1px solid #ccc;
+max-width: 1000px;
+font-family: var(--heading-font);
+color: blue;
+}
+
+
+header h1 {
+  position: absolute;
+}
+
+p, a{
+font-family: var(--paragraph-font);
+color: #000000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+  padding: 15px;
+}
+
+
+.contact-us{
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.headquarters {
+  display: flex;
+  justify-content: end;
+}
+
+.paragraphs {
+  flex-direction: column;
+}
+
+
+
+
+p {
+ margin: 1rem 1rem;
+}
+
+
+nav {
+  display: flex;
+  list-style: none;
+}
+
+figcaption {
+  font-family: var(--paragraph-font);
+  margin: 1rem;
+}
+
+nav a{
+  color: white;
+text-decoration: none;
+display: block;
+padding: 20px;
+}
+
+article p {
+display: block;
+text-align: left;
+width: auto;
+color: white;
+padding: 10px;
+}
+
+
+section p {
+  padding: 10px;
+}
+
+footer {
+margin: 1rem auto;
+display: flex;
+flex-direction: row-reverse;
+max-width: 1000px;
+justify-content: space-evenly;
+align-items: center;
+}
+
+
+label {
+  text-align: start;
+  margin: 0.5rem 0 1rem;
+  padding-right: 1rem;
+}
+
+
+textarea {
+  margin: 0;
+}
+
+input {
+  margin: 0;
+}
+
+input, select, textarea {
+  padding: 0.5rem;
+  font-size: 1.1rem;
+}
+
+label, input, button, select, textarea, legend {
+  font-family: 'Mulish', sans-serif;
+}
+
+button {
+  margin: 1rem 0;
+  background-color: var(--accent1-color);
+  color: #fff;
+  border: none;
+  border-radius: .5rem;
+  padding: .75rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+
+button:hover {
+  background-color: var(--primary-color);
+}
+
+
+/*Class Section*/  
+
+
+.boxes:hover {
+  box-shadow: 0px 0px 20px 1px var(--accent1-color);
+  scale: 1.04;
+}
+
+.hero {
+  position: relative;
+  }
+
+.heading {
+  background-color: rgb(0, 0, 0, .5);
+  border-radius: 3%;
+}
+
+
+
+.heading :hover {
+  color: white;
+	font-weight: 700;
+  background-color: rgb(105, 105, 105);
+}
+
+.footer a{
+  color: black;
+}
+
+footer p {
+  color: black;
+}
+
+
+.footer img{
+  margin: 1rem auto;
+  display: flex;
+
+  }
+
+.hero h1 {
+  background-color: rgb(0, 0, 0, .5);
+  position: absolute;
+  top: 100px;
+  text-align: center;
+  color: white;
+  font-family: var(--paragraph-font);
+  padding: 10px 0 10px
+}
+
+.hero article {
+  background-color: rgb(0, 0, 0, .5);
+  height: 150px;
+  padding: 3rem;
+  margin-top: 3rem;
+  text-align: center;
+  color: white;
+}
+
+.hero article h2{
+  color: white;
+}
+
+
+.hero article img {
+  display: block;
+  width: 200px;
+  height: auto;
+  float: right;
+}
+
+.history {
+  padding: 1rem 0 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.adventure {
+display: grid;
+grid-gap: 3px;
+grid-template-columns: 1fr 1fr 1fr;
+}
+
+.adventure-tittle {
+  text-align: center;
+}
+
+.adventure figure {
+  text-align: center;
+  
+}
+
+.adventure img {
+  width: 250px;
+  height: auto;
+}
+
+
+.columns {
+  grid-template-columns: 1fr;
+  margin: 0.5rem 0;
+}
+
+.radio {
+  margin: 1rem 0 1rem;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.radio input{
+  margin: 0 1rem 0 0;
+  min-height: 1.2rem;
+  min-width: 1.2rem;
+}
+
+.suscription-part {
+  margin: 1rem 0 1rem;
+  min-height: 1.2rem;
+  min-width: 1.2rem;
+}
+
